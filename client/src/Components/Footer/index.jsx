@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="/about">About us</a>
               </li>
               <li>
-                <a href="/blog">Get started</a>
+                <a href="/convertCurrency">Convert Currency</a>
               </li>
             </ul>
            
