@@ -63,7 +63,7 @@ const Convert = () => {
   const handleConversion = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:3001/convert?from=${fromCurrency}&to=${toCurrency}&amount=${amount}`
+        `https://currencyexchange-865o.onrender.com/convert?from=${fromCurrency}&to=${toCurrency}&amount=${amount}`
       );
       const { max_value, min_value } = response.data;
       setMaxValue(max_value);

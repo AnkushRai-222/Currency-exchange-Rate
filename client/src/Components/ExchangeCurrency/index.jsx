@@ -65,7 +65,7 @@ const CurrencyExchange = () => {
   const handleExchangeRateRequest = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:3001/currency-exchange?from=${fromCurrency}&to=${toCurrency}`
+        `https://currencyexchange-865o.onrender.com/currency-exchange?from=${fromCurrency}&to=${toCurrency}`
       );
       setExchangeRate(response.data[0].exchange_rate);
     } catch (error) {
